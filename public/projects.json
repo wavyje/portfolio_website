@@ -1,0 +1,42 @@
+[
+  {
+    "name": "feature-oriented spacecraft design",
+    "tag": "space",
+    "description": "Using concepts from feature-oriented software development, an Eclipse-Plugin for DLR-developed Virtual Satellite is developed to establish a dynamic product line for the spacecraft design process.",
+    "githubLink": "https://github.com/wavyje/fosd_concept_VirtualSatellite",
+    "image1": "./satellite.png",
+    "image2": "./VirSat.png"
+  },
+  {
+    "name": "maritime platform for translation of data",
+    "tag": "sea",
+    "description": "Change Me",
+    "githubLink": "https://github.com/wavyje/fosd_concept_VirtualSatellite",
+    "image1": "./ship.png",
+    "image2": ""
+  },
+  {
+    "name": "mobile app: distributed ledger based health certificates",
+    "tag": "health",
+    "description": "Change Me",
+    "githubLink": "https://github.com/wavyje/iota_flutter",
+    "image1": "./certificate.png",
+    "image2": ""
+  },
+  {
+    "name": "backend: distributed ledger based health certificates",
+    "tag": "ledger",
+    "description": "Change Me",
+    "githubLink": "https://github.com/wavyje/iota_health_websocket",
+    "image1": "./certificate.png",
+    "image2": ""
+  },
+  {
+    "name": "react portfolio website",
+    "tag": "web",
+    "description": "Change Me",
+    "githubLink": "https://github.com/wavyje/portfolio_website",
+    "image1": "./react.png",
+    "image2": ""
+  }
+]
