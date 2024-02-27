@@ -8,7 +8,10 @@ const Overview = () => {
     <div className="flex grid text-center lg:max-w-6xl lg:w-full lg:mb-20 lg:grid-cols-5 lg:text-center">
       {repositories.map((projectData) => {
         return (
-          <div className="group flex flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:opacity-30 items-center">
+          <div
+            key={projectData.tag}
+            className="group flex flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:opacity-30 items-center"
+          >
             <img
               className="h-24 w-24 group-hover:-translate-y-6"
               src={projectData.image1}

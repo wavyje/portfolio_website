@@ -6,7 +6,11 @@ const Repositories = () => {
     <div className="max-w-full min-h-screen">
       {repositories.map((projectData) => {
         return (
-          <div id={projectData.tag} className="min-h-screen">
+          <div
+            key={projectData.tag}
+            id={projectData.tag}
+            className="min-h-screen"
+          >
             <hr
               className={"absolute w-1/6 h-1 sm:my-6 left-20 bg-white rounded"}
             />
