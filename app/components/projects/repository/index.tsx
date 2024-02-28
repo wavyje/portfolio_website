@@ -23,11 +23,14 @@ const Repositories = () => {
                   {projectData.name}
                 </h1>
                 <a
-                  className="btn p-2 btn-black border rounded-lg border-white bg-white bg-opacity-20 hover:bg-opacity-50 text-white"
-                  href={projectData.description}
+                  className="btn p-2 m-6 btn-black border rounded-lg border-white bg-white bg-opacity-20 hover:bg-opacity-50 text-white"
+                  href={projectData.githubLink}
                 >
                   visit on github
                 </a>
+                <div className="w-5/6 text-white text-center">
+                  {"tech: " + projectData.tech}
+                </div>
               </div>
               <div className="flex flex-col w-4/6 sm:w-3/12 aspect-square bg-opacity-10 bg-white items-center justify-center rounded">
                 <img
@@ -38,9 +41,9 @@ const Repositories = () => {
                   {projectData.description}
                 </div>
               </div>
-              <div className="flex m-4 w-4/6 sm:w-3/12 aspect-square bg-white rounded-lg bg-opacity-10 justify-center">
+              <div className="flex m-4 w-4/6 sm:w-3/12 aspect-square bg-white rounded-lg bg-opacity-10 justify-center items-center">
                 <img
-                  className="w-5/6 rounded-lg object-scale-down "
+                  className="w-5/6 h-5/6 rounded-lg object-scale-down"
                   src={projectData.image2}
                 />
               </div>

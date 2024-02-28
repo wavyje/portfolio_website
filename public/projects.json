@@ -2,41 +2,46 @@
   {
     "name": "feature-oriented spacecraft design",
     "tag": "space",
-    "description": "Using concepts from feature-oriented software development, an Eclipse-Plugin for DLR-developed Virtual Satellite is developed to establish a dynamic product line for the spacecraft design process.",
+    "description": "Using concepts from feature-oriented software development, an Eclipse-Plugin for DLR-developed Virtual Satellite is implemented to establish a dynamic product line for the spacecraft design process.",
     "githubLink": "https://github.com/wavyje/fosd_concept_VirtualSatellite",
     "image1": "./satellite.png",
-    "image2": "./VirSat.png"
+    "image2": "./VirSat.png",
+    "tech": "java, eclipse rich client platform"
   },
   {
     "name": "maritime platform for translation of data",
     "tag": "sea",
-    "description": "Change Me",
+    "description": "Polymorphic interface for translating NMEA0183 and NMEA2000 data, which are used in ship to ship and ship to shore communication.",
     "githubLink": "https://github.com/wavyje/fosd_concept_VirtualSatellite",
     "image1": "./ship.png",
-    "image2": "./ship_stock.jpg"
+    "image2": "./ship_stock.jpg",
+    "tech": "java, xml, tcp"
   },
   {
     "name": "mobile app: distributed ledger based health certificates",
     "tag": "health",
-    "description": "Change Me",
+    "description": "Mobile application to create health certificates and validate them through scanning a QR-code. The certificate owner's data remains on their phone. Doctors can use this app to create certificates. Connected to the distributed ledger based backend.",
     "githubLink": "https://github.com/wavyje/iota_flutter",
     "image1": "./certificate.png",
-    "image2": "./PurpleC.png"
+    "image2": "./PurpleC.png",
+    "tech": "flutter, http, stateful components"
   },
   {
     "name": "backend: distributed ledger based health certificates",
     "tag": "ledger",
-    "description": "Change Me",
+    "description": "Backend of the mobile app, providing access to the distributed ledger and implementation of a merkle tree to validate the data.",
     "githubLink": "https://github.com/wavyje/iota_health_websocket",
     "image1": "./IOTA Logo White.png",
-    "image2": ""
+    "image2": "./iota_screenshot.png",
+    "tech": "rust, html, css, actix-web, distributed ledger"
   },
   {
     "name": "react portfolio website",
     "tag": "web",
-    "description": "Change Me",
+    "description": "Responsive website created to dynamically update and display the owner's projects.",
     "githubLink": "https://github.com/wavyje/portfolio_website",
     "image1": "./react.png",
-    "image2": "./website_screenshot.png"
+    "image2": "./website_screenshot.png",
+    "tech": "react, typescript, html, css, node.js, vercel"
   }
 ]
