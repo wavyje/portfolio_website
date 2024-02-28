@@ -12,7 +12,7 @@
     "name": "maritime platform for translation of data",
     "tag": "sea",
     "description": "Polymorphic interface for translating NMEA0183 and NMEA2000 data, which are used in ship to ship and ship to shore communication.",
-    "githubLink": "https://github.com/wavyje/fosd_concept_VirtualSatellite",
+    "githubLink": "https://github.com/wavyje/maritime_data_translation",
     "image1": "./ship.png",
     "image2": "./ship_stock.jpg",
     "tech": "java, xml, tcp"
