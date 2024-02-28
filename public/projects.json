@@ -13,7 +13,7 @@
     "description": "Change Me",
     "githubLink": "https://github.com/wavyje/fosd_concept_VirtualSatellite",
     "image1": "./ship.png",
-    "image2": ""
+    "image2": "./ship_stock.jpg"
   },
   {
     "name": "mobile app: distributed ledger based health certificates",
@@ -21,14 +21,14 @@
     "description": "Change Me",
     "githubLink": "https://github.com/wavyje/iota_flutter",
     "image1": "./certificate.png",
-    "image2": ""
+    "image2": "./PurpleC.png"
   },
   {
     "name": "backend: distributed ledger based health certificates",
     "tag": "ledger",
     "description": "Change Me",
     "githubLink": "https://github.com/wavyje/iota_health_websocket",
-    "image1": "./certificate.png",
+    "image1": "./IOTA Logo White.png",
     "image2": ""
   },
   {
@@ -37,6 +37,6 @@
     "description": "Change Me",
     "githubLink": "https://github.com/wavyje/portfolio_website",
     "image1": "./react.png",
-    "image2": ""
+    "image2": "./website_screenshot.png"
   }
 ]

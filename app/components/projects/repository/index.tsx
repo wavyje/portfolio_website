@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import repositories from "../../../../public/projects.json";
 
 const Repositories = () => {
   return (
     <div className="max-w-full min-h-screen">
+      {/*
+       * Build project section for every project in the database.
+       */}
       {repositories.map((projectData) => {
         return (
           <div

@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import Project from "../../page";
 import repositories from "../../../public/projects.json";
 
 const Overview = () => {
   return (
     <div className="flex grid text-center lg:max-w-6xl lg:w-full lg:mb-20 lg:grid-cols-5 lg:text-center">
+      {/*
+       * Build overview parcel for every project in the database.
+       */}
       {repositories.map((projectData) => {
         return (
           <div
@@ -13,7 +15,7 @@ const Overview = () => {
             className="group flex flex-col rounded-lg border border-transparent px-5 py-4 transition-colors hover:opacity-30 items-center"
           >
             <img
-              className="h-24 w-24 group-hover:-translate-y-6"
+              className="h-24 w-24 group-hover:-translate-y-6 object-scale-down"
               src={projectData.image1}
             />
             <Link href={"#" + projectData.tag}>
